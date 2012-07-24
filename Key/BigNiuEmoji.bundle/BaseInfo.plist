@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.niupai.BigNiuEmoji</string>
+	<key>DisplayName</key>
+	<string>大牛芒</string>
+	<key>Version</key>
+	<integer>1</integer>
+	<key>SendDirectly</key>
+	<true/>
+	<key>DisplaySize</key>
+	<dict>
+		<key>Width</key>
+		<integer>33</integer>
+		<key>Height</key>
+		<string>33</string>
+	</dict>
+	<key>MapFileName</key>
+	<string>map.plist</string>
+</dict>
+</plist>

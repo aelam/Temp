@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9499474B15BE780300A5FE57 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9499474A15BE780300A5FE57 /* UIKit.framework */; };
+		9499474D15BE780300A5FE57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9499474C15BE780300A5FE57 /* Foundation.framework */; };
+		9499474F15BE780300A5FE57 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9499474E15BE780300A5FE57 /* CoreGraphics.framework */; };
+		9499475515BE780300A5FE57 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9499475315BE780300A5FE57 /* InfoPlist.strings */; };
+		9499475715BE780300A5FE57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9499475615BE780300A5FE57 /* main.m */; };
+		9499475B15BE780300A5FE57 /* JDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9499475A15BE780300A5FE57 /* JDAppDelegate.m */; };
+		9499475E15BE780300A5FE57 /* JDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9499475D15BE780300A5FE57 /* JDViewController.m */; };
+		9499476115BE780300A5FE57 /* JDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9499475F15BE780300A5FE57 /* JDViewController.xib */; };
+		9499476C15BE783000A5FE57 /* face.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9499476B15BE783000A5FE57 /* face.plist */; };
+		9499486215BE8DAD00A5FE57 /* new in Resources */ = {isa = PBXBuildFile; fileRef = 9499486115BE8DAD00A5FE57 /* new */; };
+		9499486E15BEAF9B00A5FE57 /* BigNiuEmoji.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9499486C15BEAF9B00A5FE57 /* BigNiuEmoji.bundle */; };
+		9499486F15BEAF9B00A5FE57 /* SmallNiuEmoji.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9499486D15BEAF9B00A5FE57 /* SmallNiuEmoji.bundle */; };
+		9499487815BEAFA900A5FE57 /* EmoticonDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9499487115BEAFA900A5FE57 /* EmoticonDefaults.plist */; };
+		9499487915BEAFA900A5FE57 /* NPEmoticonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9499487315BEAFA900A5FE57 /* NPEmoticonManager.m */; };
+		9499487A15BEAFAA00A5FE57 /* NPEmoticonPack.m in Sources */ = {isa = PBXBuildFile; fileRef = 9499487515BEAFA900A5FE57 /* NPEmoticonPack.m */; };
+		9499487B15BEAFAA00A5FE57 /* NPEmotion.m in Sources */ = {isa = PBXBuildFile; fileRef = 9499487715BEAFA900A5FE57 /* NPEmotion.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9499474615BE780300A5FE57 /* Key.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Key.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9499474A15BE780300A5FE57 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9499474C15BE780300A5FE57 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9499474E15BE780300A5FE57 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9499475215BE780300A5FE57 /* Key-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Key-Info.plist"; sourceTree = "<group>"; };
+		9499475415BE780300A5FE57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9499475615BE780300A5FE57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9499475815BE780300A5FE57 /* Key-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Key-Prefix.pch"; sourceTree = "<group>"; };
+		9499475915BE780300A5FE57 /* JDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDAppDelegate.h; sourceTree = "<group>"; };
+		9499475A15BE780300A5FE57 /* JDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDAppDelegate.m; sourceTree = "<group>"; };
+		9499475C15BE780300A5FE57 /* JDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDViewController.h; sourceTree = "<group>"; };
+		9499475D15BE780300A5FE57 /* JDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDViewController.m; sourceTree = "<group>"; };
+		9499476015BE780300A5FE57 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JDViewController.xib; sourceTree = "<group>"; };
+		9499476B15BE783000A5FE57 /* face.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = face.plist; sourceTree = "<group>"; };
+		9499486115BE8DAD00A5FE57 /* new */ = {isa = PBXFileReference; lastKnownFileType = folder; path = new; sourceTree = "<group>"; };
+		9499486C15BEAF9B00A5FE57 /* BigNiuEmoji.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BigNiuEmoji.bundle; sourceTree = "<group>"; };
+		9499486D15BEAF9B00A5FE57 /* SmallNiuEmoji.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SmallNiuEmoji.bundle; sourceTree = "<group>"; };
+		9499487115BEAFA900A5FE57 /* EmoticonDefaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EmoticonDefaults.plist; sourceTree = "<group>"; };
+		9499487215BEAFA900A5FE57 /* NPEmoticonManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPEmoticonManager.h; sourceTree = "<group>"; };
+		9499487315BEAFA900A5FE57 /* NPEmoticonManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPEmoticonManager.m; sourceTree = "<group>"; };
+		9499487415BEAFA900A5FE57 /* NPEmoticonPack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPEmoticonPack.h; sourceTree = "<group>"; };
+		9499487515BEAFA900A5FE57 /* NPEmoticonPack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPEmoticonPack.m; sourceTree = "<group>"; };
+		9499487615BEAFA900A5FE57 /* NPEmotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPEmotion.h; sourceTree = "<group>"; };
+		9499487715BEAFA900A5FE57 /* NPEmotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPEmotion.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9499474315BE780300A5FE57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9499474B15BE780300A5FE57 /* UIKit.framework in Frameworks */,
+				9499474D15BE780300A5FE57 /* Foundation.framework in Frameworks */,
+				9499474F15BE780300A5FE57 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9499473B15BE780300A5FE57 = {
+			isa = PBXGroup;
+			children = (
+				9499475015BE780300A5FE57 /* Key */,
+				9499474915BE780300A5FE57 /* Frameworks */,
+				9499474715BE780300A5FE57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9499474715BE780300A5FE57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9499474615BE780300A5FE57 /* Key.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9499474915BE780300A5FE57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9499474A15BE780300A5FE57 /* UIKit.framework */,
+				9499474C15BE780300A5FE57 /* Foundation.framework */,
+				9499474E15BE780300A5FE57 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9499475015BE780300A5FE57 /* Key */ = {
+			isa = PBXGroup;
+			children = (
+				9499487015BEAFA900A5FE57 /* AIEmotions */,
+				9499476B15BE783000A5FE57 /* face.plist */,
+				9499475915BE780300A5FE57 /* JDAppDelegate.h */,
+				9499475A15BE780300A5FE57 /* JDAppDelegate.m */,
+				9499475C15BE780300A5FE57 /* JDViewController.h */,
+				9499475D15BE780300A5FE57 /* JDViewController.m */,
+				9499475F15BE780300A5FE57 /* JDViewController.xib */,
+				9499486B15BEAF9B00A5FE57 /* Resource */,
+				9499475115BE780300A5FE57 /* Supporting Files */,
+			);
+			path = Key;
+			sourceTree = "<group>";
+		};
+		9499475115BE780300A5FE57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9499486115BE8DAD00A5FE57 /* new */,
+				9499475215BE780300A5FE57 /* Key-Info.plist */,
+				9499475315BE780300A5FE57 /* InfoPlist.strings */,
+				9499475615BE780300A5FE57 /* main.m */,
+				9499475815BE780300A5FE57 /* Key-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9499486B15BEAF9B00A5FE57 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				9499486C15BEAF9B00A5FE57 /* BigNiuEmoji.bundle */,
+				9499486D15BEAF9B00A5FE57 /* SmallNiuEmoji.bundle */,
+			);
+			path = Resource;
+			sourceTree = SOURCE_ROOT;
+		};
+		9499487015BEAFA900A5FE57 /* AIEmotions */ = {
+			isa = PBXGroup;
+			children = (
+				9499487115BEAFA900A5FE57 /* EmoticonDefaults.plist */,
+				9499487215BEAFA900A5FE57 /* NPEmoticonManager.h */,
+				9499487315BEAFA900A5FE57 /* NPEmoticonManager.m */,
+				9499487415BEAFA900A5FE57 /* NPEmoticonPack.h */,
+				9499487515BEAFA900A5FE57 /* NPEmoticonPack.m */,
+				9499487615BEAFA900A5FE57 /* NPEmotion.h */,
+				9499487715BEAFA900A5FE57 /* NPEmotion.m */,
+			);
+			path = AIEmotions;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9499474515BE780300A5FE57 /* Key */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9499476415BE780300A5FE57 /* Build configuration list for PBXNativeTarget "Key" */;
+			buildPhases = (
+				9499474215BE780300A5FE57 /* Sources */,
+				9499474315BE780300A5FE57 /* Frameworks */,
+				9499474415BE780300A5FE57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Key;
+			productName = Key;
+			productReference = 9499474615BE780300A5FE57 /* Key.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9499473D15BE780300A5FE57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JD;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 9499474015BE780300A5FE57 /* Build configuration list for PBXProject "Key" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9499473B15BE780300A5FE57;
+			productRefGroup = 9499474715BE780300A5FE57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9499474515BE780300A5FE57 /* Key */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9499474415BE780300A5FE57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9499475515BE780300A5FE57 /* InfoPlist.strings in Resources */,
+				9499476115BE780300A5FE57 /* JDViewController.xib in Resources */,
+				9499476C15BE783000A5FE57 /* face.plist in Resources */,
+				9499486215BE8DAD00A5FE57 /* new in Resources */,
+				9499486E15BEAF9B00A5FE57 /* BigNiuEmoji.bundle in Resources */,
+				9499486F15BEAF9B00A5FE57 /* SmallNiuEmoji.bundle in Resources */,
+				9499487815BEAFA900A5FE57 /* EmoticonDefaults.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9499474215BE780300A5FE57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9499475715BE780300A5FE57 /* main.m in Sources */,
+				9499475B15BE780300A5FE57 /* JDAppDelegate.m in Sources */,
+				9499475E15BE780300A5FE57 /* JDViewController.m in Sources */,
+				9499487915BEAFA900A5FE57 /* NPEmoticonManager.m in Sources */,
+				9499487A15BEAFAA00A5FE57 /* NPEmoticonPack.m in Sources */,
+				9499487B15BEAFAA00A5FE57 /* NPEmotion.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9499475315BE780300A5FE57 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9499475415BE780300A5FE57 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9499475F15BE780300A5FE57 /* JDViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9499476015BE780300A5FE57 /* en */,
+			);
+			name = JDViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9499476215BE780300A5FE57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9499476315BE780300A5FE57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9499476515BE780300A5FE57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Key/Key-Prefix.pch";
+				INFOPLIST_FILE = "Key/Key-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9499476615BE780300A5FE57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Key/Key-Prefix.pch";
+				INFOPLIST_FILE = "Key/Key-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9499474015BE780300A5FE57 /* Build configuration list for PBXProject "Key" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9499476215BE780300A5FE57 /* Debug */,
+				9499476315BE780300A5FE57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9499476415BE780300A5FE57 /* Build configuration list for PBXNativeTarget "Key" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9499476515BE780300A5FE57 /* Debug */,
+				9499476615BE780300A5FE57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9499473D15BE780300A5FE57 /* Project object */;
+}
